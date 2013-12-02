@@ -1,0 +1,47 @@
+body{
+background-color:white;
+}
+div#frame{
+width:80%;
+margin:0 auto;
+}
+div.form_input
+{
+}
+div.form_value{
+}
+.content{
+width:100%;
+border:1px dotted #ccccff;
+padding:10px;
+margin-top:10px;
+}
+textarea{
+width:30%;
+}
+input{
+width:80%;
+}
+input.submit{
+width:120px;
+
+}
+table.list{
+border:1px solid;
+border-collapse:collapse;
+width:100%;
+}
+table.list th{
+border:1px solid;
+border-collapse:collapse;
+background-color: #6699ff;
+
+}
+table.list td{
+border:1px solid  #ccccff;
+border-collapse:collapse;
+text-align:center;
+}
+legend{
+margin-bottom:20px;
+}
