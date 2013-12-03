@@ -4,8 +4,8 @@ include_once "view/berita_view.php";
 /*----start saving from here---------*/
 if(isset($_POST['save']))
 {
-$title=htmlentities($_POST['title']);
-$content=$_POST['content'];
+$title=mysql_real_escape_string($_POST['title']);
+$content=mysql_real_escape_string($_POST['content']);
 $sql="INSERT INTO berita (title,content) VALUES ('$title','$content')";
 $val=mysql_query($sql);
 echo"<meta http-equiv='refresh' content='0, url=index.php'>";
